@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+}
+
+a{ /*estilização dos links*/
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav { /*estilização do menu*/
+    background-color: rgb(65, 62, 62);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ul { /*estilização da lista*/
+   list-style: none;
+   display: flex;
+   
+}
+
+nav li {
+    letter-spacing: 3px;
+    margin: 15px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+h1 { /*estilização do título*/
+    text-align: center;
+    color: white;
+    background-color: rgb(73, 94, 38);
+    padding: 25px;
+}
+
+.main-1 img { /*estilização da imagem da primeira página*/
+   margin-left: 43%;
+   margin-top: 15px;
+   width: 170px;
+   height: 250px;
+   border-radius: 70px;
+}
+
+.main-1 p {/*estilização do parágrafo da primeira página*/
+    margin: 200px;
+    margin-top: 15px;
+    text-align: center;
+
+}
+
+.main-2 li{ /*estilização das listas da página de formação*/
+    margin-top: 75px;
+    margin-left: 30%;
+
+}
+
+.main-3 p{ /*estilização do parágrafo da página portfólio*/
+    margin-top: 80px;
+    margin-left: 30%;
+    font-size: 20px;
+}
+
+.main-3 a{ /*estilização dos links da página portfólio*/
+    color: darkolivegreen;
+}
+
+.main-3 li { /*estilização da lista da página portfólio*/
+    margin-top: 20px;
+    margin-left: 30%;
+}
+
+.main-4 p {
+    margin-top: 80px;
+    margin-left: 30%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.main-4 a {
+    color: darkolivegreen;
+}
+
+.main-4 li {
+    margin-top: 20px;
+    margin-left: 30%;
+}
+
+
+
+input { /*estilização do input da página contato*/
+    
+    width: 10vw;
+    
+}
+
+.enviar { /*estilização do botão "enviar" da página contato*/
+    margin-top: 20px;
+    margin-left: 30%;
+    background-color: darkolivegreen;
+    color: white;
+    padding: 10px;
+}
